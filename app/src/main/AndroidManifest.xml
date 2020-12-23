@@ -9,17 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Practical">
-        <activity android:name=".display_form">
-
+        <activity android:name=".PersonalDetail2"></activity>
+        <activity android:name=".PersonalDetail">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".login">
-        </activity>
-        <activity android:name=".selectgender"></activity>
+        <activity android:name=".display_form"></activity>
+        <activity android:name=".login" />
+        <activity android:name=".selectgender" />
         <activity android:name=".increasecounter" />
         <activity android:name=".secondquestionrelative" />
         <activity android:name=".relative" />
